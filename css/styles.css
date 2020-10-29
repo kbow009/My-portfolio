@@ -3,9 +3,9 @@
 	--secondary-color: #e0b354;
 	--dark-grey: #3d3c3c;
 	--orange: #c73c05;
-	--bg-color: #539172;
+	--bg-color: #97cfb3;
 	--Navmain: #0361b9;
-	--Navvis: #e7bcec;
+	--Navvis: #078b03;
 	--Navactive: #06cbfcf6;
 }
 a {
@@ -16,7 +16,7 @@ a {
 }
 
 body {
-	color: var(--bg-color) #539172;
+	background-color: var(--bg-color);
 }
 
 body {
@@ -88,8 +88,8 @@ button,
 	/* takes the font from the outer container */
 	font-family: inherit;
 	/* styles the background color, font color, and text decoration (underline, etc.) of the button */
-	background-color: #dbb60e;
-	color: rgb(41, 30, 30);
+	background-color: #e9700d;
+	color: rgb(8, 5, 5);
 	text-decoration: none;
 	/*adds spacing to the button (this will be discussed more in-depth later) */
 	padding: 10px;
@@ -114,6 +114,7 @@ button:focus,
 	opacity: 0.8;
 }
 
+button,
 .button2 {
 	border: none;
 	display: inline-block;
@@ -123,8 +124,8 @@ button:focus,
 	border-radius: 3px;
 	/* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
 	border-bottom: 2px solid rgba(0, 0, 0, 0.4);
-	background-color: #92455c;
-	color: #ccc7c7;
+	background-color: #f02562;
+	color: #130707;
 	text-decoration: none;
 	transition: 0.2s;
 	opacity: 0.8;
@@ -149,11 +150,11 @@ button:focus,
 	display: flex;
 	width: 100%;
 	padding: 20px;
-	border-bottom: 1px solid #010a0a;
+	border-bottom: 1px solid #031d1d;
 }
 
 .page-header__item {
-	flex: 0 1 200px;
+	flex: 0 10;
 }
 
 .page-header__item:last-child {
@@ -177,10 +178,6 @@ button:focus,
 	text-align: center;
 	display: flex;
 	flex-direction: column;
-}
-
-* {
-	box-sizing: border-box;
 }
 
 .navigation-list li {
@@ -288,4 +285,25 @@ h1 {
 
 .cloud-back {
 	animation: 34s cloud-move-reverse infinite alternate linear;
+}
+%button-shared {
+	border: none;
+	display: inline-block;
+	/* takes the font from the outer container */
+	font-family: inherit;
+	padding: 5px;
+	border-radius: 3px;
+	/* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+	border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+	background-color: #9c0495;
+	text-decoration: none;
+	transition: 0.2s;
+	opacity: 0.8;
+}
+button,
+.button-home,
+.button-about,
+.button-contact,
+.button-work {
+	@extend %button-shared;
 }
