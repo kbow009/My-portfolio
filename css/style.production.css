@@ -60,7 +60,7 @@ h1 {
 	margin-left: 15px;
 }
 a {
-	color: #b5b6b8;
+	color: #f7f7f7;
 }
 a:hover,
 a:focus {
@@ -69,7 +69,7 @@ a:focus {
 }
 a:visited {
 	/* visited link */
-	color: #74b1c9;
+	color: #f1ecbc;
 }
 a:active {
 	/* selected link */
