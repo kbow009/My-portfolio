@@ -4,9 +4,9 @@
 	--dark-grey: #3d3c3c;
 	--orange: #c73c05;
 	--bg-color: #97cfb3;
-	--Navmain: #0361b9;
-	--Navvis: #078b03;
-	--Navactive: #06cbfcf6;
+	--Nav-main: #0361b9;
+	--Nav-vis: #078b03;
+	--Nav-active: #06cbfcf6;
 }
 
 * {
@@ -47,6 +47,19 @@ h1 {
 	margin: 0 30% 0 30%;
 }
 
+.page-body {
+	margin: 0 10px;
+	min-height: 75%;
+}
+
+.page-body__item {
+	text-align: center;
+}
+
+.page-body_title {
+	text-align: center;
+}
+
 .navigation-list,
 .standard-body__item li {
 	list-style-type: none;
@@ -59,8 +72,9 @@ h1 {
 }
 
 a {
-	color: var(--Navmain);
+	color: var(--Nav-main);
 }
+
 a:hover,
 a:focus {
 	/* No underlining when hovering over a link */
@@ -69,12 +83,12 @@ a:focus {
 
 a:visited {
 	/* visited link */
-	color: var(--Navvis);
+	color: var(--Nav-vis);
 }
 
 a:active {
 	/* selected link */
-	color: var(--Navactive);
+	color: var(--Nav-active);
 }
 
 button,
@@ -87,7 +101,7 @@ button,
 	font-family: inherit;
 	/* styles the background color, font color, and text decoration (underline, etc.) of the button */
 	background-color: #e9700d;
-	color: rgb(8, 5, 5);
+	color: #080505;
 	text-decoration: none;
 	/*adds spacing to the button (this will be discussed more in-depth later) */
 	padding: 10px;
@@ -133,10 +147,6 @@ button,
 	color: rgba(155, 94, 94, 0.822);
 }
 
-.profile__portrait {
-	float: left;
-}
-
 .page-footer {
 	clear: both;
 	display: flex;
@@ -152,7 +162,7 @@ button,
 }
 
 .page-header__item {
-	flex: 0 10;
+	flex: 0 1 auto;
 }
 
 .page-header__item:last-child {
@@ -174,7 +184,7 @@ button,
 
 .profile {
 	text-align: center;
-	display: flex;
+
 	flex-direction: column;
 }
 
@@ -186,13 +196,16 @@ button,
 	display: inline-block;
 	margin-left: 15px;
 }
+.about-me-table {
+	text-align: center;
+}
 
 .grid {
 	display: grid;
 }
 
 .grid__item {
-	background-color: rgb(211, 211, 211);
+	background-color: lightgrey;
 }
 
 .grid {
@@ -212,19 +225,19 @@ button,
 	grid-gap: 20px;
 }
 
-@media all and (max-width: 500px) {
+@media (max-width: 500px) {
 	.grid {
 		grid-template-columns: 1fr;
 	}
 }
 
-@media all and (min-width: 500px) and (max-width: 750px) {
+@media (min-width: 500px) and (max-width: 750px) {
 	.grid {
 		grid-template-columns: 1fr 1fr;
 	}
 }
 
-@media all and (max-width: 750px) {
+@media (max-width: 750px) {
 	.grid {
 		grid-gap: 10px;
 	}
@@ -284,7 +297,12 @@ h1 {
 .cloud-back {
 	animation: 34s cloud-move-reverse infinite alternate linear;
 }
-%button-shared {
+
+button,
+.button-home,
+.button-about,
+.button-contact,
+.button-work {
 	border: none;
 	display: inline-block;
 	/* takes the font from the outer container */
@@ -298,10 +316,22 @@ h1 {
 	transition: 0.2s;
 	opacity: 0.8;
 }
-button,
-.button-home,
-.button-about,
-.button-contact,
-.button-work {
-	@extend %button-shared;
+
+/* contact.html styles */
+.page-body__contact-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.page-body__form-contact {
+	width: 350px;
+	padding: 10px;
+	border: 1px solid #357b70;
+}
+
+.page-body__form-contact input,
+.page-body__form-contact textarea {
+	width: 100%;
 }

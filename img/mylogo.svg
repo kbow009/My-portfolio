@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 149.803 69.3"
+   width="149.803pt"
+   height="69.3pt"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="mylogo.svg">
+  <defs
+     id="defs2">
+    <clipPath
+       id="_clipPath_UOM01UgtkeHXQwKPragvs4Qs3XJPVWyv">
+      <rect
+         width="149.80299"
+         height="69.300003"
+         id="rect277"
+         x="0"
+         y="0" />
+    </clipPath>
+    <clipPath
+       id="_clipPath_cUcZTvmb9fQhE7YQg7LXoFAXvRx5pIvH">
+      <rect
+         x="0"
+         y="0"
+         width="73"
+         height="68.484001"
+         transform="matrix(1,0.012,-0.012,1,76.809,0)"
+         id="rect288" />
+    </clipPath>
+    <clipPath
+       id="_clipPath_8RJ3zPutPA59TEk4qw5TrKn9D5P1tFc5">
+      <rect
+         x="0"
+         y="0"
+         width="101"
+         height="43"
+         transform="translate(0,12.171)"
+         id="rect299" />
+    </clipPath>
+    <filter
+       id="8yqXnewSStC9tDGiZdO7dDUcRXFbKNXn"
+       x="-2"
+       y="-2"
+       width="4"
+       height="4"
+       filterUnits="objectBoundingBox"
+       color-interpolation-filters="sRGB">
+      <feOffset
+         in="SourceGraphic"
+         dx="0"
+         dy="0"
+         id="feOffset306" />
+      <feGaussianBlur
+         stdDeviation="2.146804531419514"
+         result="pf_100_offsetBlur"
+         id="feGaussianBlur308" />
+      <feComposite
+         in="SourceGraphic"
+         in2="pf_100_offsetBlur"
+         result="pf_100_inverse"
+         operator="out"
+         id="feComposite310" />
+      <feFlood
+         flood-color="#000000"
+         flood-opacity="0.5"
+         result="pf_100_color"
+         id="feFlood312" />
+      <feComposite
+         in="pf_100_color"
+         in2="pf_100_inverse"
+         operator="in"
+         result="pf_100_shadow"
+         id="feComposite314" />
+      <feComposite
+         in="pf_100_shadow"
+         in2="SourceGraphic"
+         operator="over"
+         id="feComposite316" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="698"
+     id="namedview329"
+     showgrid="false"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:zoom="2.9014778"
+     inkscape:cx="84.183304"
+     inkscape:cy="78.991857"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-3.1052059,-77.843142)">
+    <g
+       clip-path="url(#_clipPath_UOM01UgtkeHXQwKPragvs4Qs3XJPVWyv)"
+       id="g325"
+       transform="matrix(1.0010114,0,0,1.0032156,3.1052059,77.843142)">
+      <g
+         id="g67">
+        <rect
+           width="149.80299"
+           height="69.300003"
+           style="fill:#f7f0f0"
+           fill-opacity="0"
+           id="rect282"
+           x="0.49458915"
+           y="-0.7418837" />
+        <g
+           style="isolation:isolate"
+           id="g323">
+          <g
+             id="g321"
+             transform="translate(-14.343085,0.49458914)">
+            <g
+               filter="url(#8yqXnewSStC9tDGiZdO7dDUcRXFbKNXn)"
+               id="g304"
+               transform="translate(-0.49458913,-0.49458913)">
+              <g
+                 clip-path="url(#_clipPath_cUcZTvmb9fQhE7YQg7LXoFAXvRx5pIvH)"
+                 id="g286">
+                <text
+                   transform="matrix(1,0.012,-0.012,1,76.57,53.251)"
+                   id="text284"
+                   style="font-size:48px;font-family:'Permanent Marker';white-space:pre;fill:#284464">KB</text>
+              </g>
+              <defs
+                 id="defs291">
+                <clipPath
+                   id="clipPath919">
+                  <rect
+                     x="0"
+                     y="0"
+                     width="73"
+                     height="68.484001"
+                     transform="matrix(1,0.012,-0.012,1,76.809,0)"
+                     id="rect917" />
+                </clipPath>
+              </defs>
+              <ellipse
+                 vector-effect="non-scaling-stroke"
+                 cx="48.5"
+                 cy="33.170719"
+                 rx="23.5"
+                 ry="23"
+                 fill="#03554d"
+                 id="ellipse293" />
+              <g
+                 clip-path="url(#_clipPath_8RJ3zPutPA59TEk4qw5TrKn9D5P1tFc5)"
+                 id="g297">
+                <text
+                   transform="translate(27.905,41.014)"
+                   id="text295"
+                   style="font-size:26px;font-family:'Permanent Marker';white-space:pre;fill:#a6edd2">&lt;/&gt;</text>
+              </g>
+              <defs
+                 id="defs302">
+                <clipPath
+                   id="clipPath927">
+                  <rect
+                     x="0"
+                     y="0"
+                     width="101"
+                     height="43"
+                     transform="translate(0,12.171)"
+                     id="rect925" />
+                </clipPath>
+              </defs>
+            </g>
+            <defs
+               id="defs319">
+              <filter
+                 id="filter943"
+                 x="-2"
+                 y="-2"
+                 width="4"
+                 height="4"
+                 filterUnits="objectBoundingBox"
+                 color-interpolation-filters="sRGB">
+                <feOffset
+                   in="SourceGraphic"
+                   dx="0"
+                   dy="0"
+                   id="feOffset931" />
+                <feGaussianBlur
+                   stdDeviation="2.146804531419514"
+                   result="pf_100_offsetBlur"
+                   id="feGaussianBlur933" />
+                <feComposite
+                   in="SourceGraphic"
+                   in2="pf_100_offsetBlur"
+                   result="pf_100_inverse"
+                   operator="out"
+                   id="feComposite935" />
+                <feFlood
+                   flood-color="#000000"
+                   flood-opacity="0.5"
+                   result="pf_100_color"
+                   id="feFlood937" />
+                <feComposite
+                   in="pf_100_color"
+                   in2="pf_100_inverse"
+                   operator="in"
+                   result="pf_100_shadow"
+                   id="feComposite939" />
+                <feComposite
+                   in="pf_100_shadow"
+                   in2="SourceGraphic"
+                   operator="over"
+                   id="feComposite941" />
+              </filter>
+            </defs>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
